@@ -100,7 +100,9 @@ button {
   border: 0;
   text-transform: uppercase;
   font-size: 0.8em;
-  font-weight: bold;
+    font-family: "Raleway";
+    font-size: 13px;
+    font-weight: 600;
 }
 button:hover {
   background: #34d464;
