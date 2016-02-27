@@ -44,12 +44,19 @@ html.fp-enabled,
     table-layout:fixed;
     width: 100%;
 }
+
 .fp-tableCell {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
     height: 100%;
 }
+
+#container-fix {
+    position: relative;
+    top:30%;
+}
+
 .fp-slidesContainer {
     float: left;
     position: relative;
@@ -109,6 +116,7 @@ html.fp-enabled,
     left: 50%;
     opacity: 1;
 }
+
 .fp-slidesNav.bottom {
     bottom: 17px;
 }
@@ -205,3 +213,4 @@ html.fp-enabled,
 .fp-auto-height .fp-tableCell{
     height: auto !important;
 }
+
