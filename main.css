@@ -10,13 +10,14 @@ body {
     font-family: "Proxima Nova", thin;
     font-size: 16px;
     color: #ffffff;
-    background-color: #262626;
+    background-color: #181818;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
 }
 
 h1, h3, h4, h5, h6 {
     color: #ffffff;
     font-family: "Raleway";
+    font-weight: 200;
     font-size: 40px;
        line-height: 0.4em;
 }
@@ -33,9 +34,36 @@ h2 {
     
 }
 
+#businessintern {
+    font-family: "Raleway";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+}
+
+
+#subheader {
+    font-family: "Raleway";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 2
+}
+
 #underscore:hover {
     text-decoration: underline;
     
+}
+
+#followme {
+    font-color: #999999;
+    font-family: "Raleway";
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    float: right ;
+    font-size: 11px;
+    margin: 4.5em auto;
+    
+        
 }
 
 a {
@@ -128,12 +156,3 @@ button:hover {
     }
 }
 
-#followme {
-    color: #d4d4d4;
-    font-family: "Raleway";
-    float: right ;
-    font-size: 11px;
-    margin: 4.5em auto;
-    
-        
-}
