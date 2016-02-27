@@ -77,7 +77,7 @@ button:hover {
     text-transform: uppercase;
     background-color: transparent;
     margin-left: 5px;
-    border-color: aliceblue;
+    border-color: lightgrey;
     border-style: solid;
     border-width: thin;
     width: 25%;
@@ -88,6 +88,22 @@ button:hover {
     border-color: #34d464;
 }
 
+#type3 {
+    color: inherit;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 900px;
+    margin-left: 5px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: thin;
+    width: 3.4%;
+
+}
+
+#type3:hover{
+    border-color: white;
+}
 
 @-webkit-keyframes colorize {
     0% {
