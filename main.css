@@ -29,7 +29,12 @@ p{
 h2 {
     font-family: "Raleway";
     color: #999999;
-    font-size: 15px;
+    font-size: 14px;
+    
+}
+
+#underscore:hover {
+    text-decoration: underline;
     
 }
 
@@ -124,6 +129,11 @@ button:hover {
 }
 
 #followme {
-    color: #999999;
+    color: #d4d4d4;
     font-family: "Raleway";
-    float: right}
+    float: right ;
+    font-size: 11px;
+    margin: 4.5em auto;
+    
+        
+}
