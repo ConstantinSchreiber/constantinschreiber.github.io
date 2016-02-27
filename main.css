@@ -1,0 +1,92 @@
+html {
+    background-color: #262626;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 900px;
+    font-family: "Proxima Nova", thin;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #262626;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+h1, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 40px;
+       line-height: 0.4em;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+
+h2 {
+    font-family: "Raleway";
+    color: #999999;
+    font-size: 15px;
+    
+}
+
+a {
+    color: #0083e8;
+}
+  
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border-right: 17px solid rgba(0, 0, 0, 0);
+    float: left;
+    margin: 0.10em auto;
+}
+
+#type {
+  color: inherit;
+  text-transform: uppercase;
+}
+button {
+  background: #649000;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+button:hover {
+  background: #82BD03;
+}
+
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+@keyframes colorize {
+    0% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
+}
