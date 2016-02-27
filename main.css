@@ -60,6 +60,7 @@ img {
   text-transform: uppercase;
 }
 button {
+    margin-top: 50px;
   background: #649000;
   width: 100px;
   height: 30px;
@@ -72,6 +73,11 @@ button {
 button:hover {
   background: #82BD03;
 }
+#type2 {
+    color: inherit;
+  text-transform: uppercase;
+margin-left: 5px;}
+
 
 @-webkit-keyframes colorize {
     0% {
@@ -90,3 +96,8 @@ button:hover {
         filter: grayscale(0%);
     }
 }
+
+#followme {
+    color: #999999;
+    font-family: "Raleway";
+    float: right}
