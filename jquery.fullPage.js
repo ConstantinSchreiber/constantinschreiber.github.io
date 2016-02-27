@@ -142,7 +142,7 @@
             //design
             controlArrows: true,
             controlArrowColor: '#fff',
-            verticalCentered: true,
+            verticalCentered: false,
             resize: false,
             sectionsColor : [],
             paddingTop: 0,
