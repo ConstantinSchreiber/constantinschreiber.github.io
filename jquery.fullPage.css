@@ -52,9 +52,9 @@ html.fp-enabled,
     height: 100%;
 }
 
-#container-fix {
-    position: relative;
-    top:30%;
+#section0 .fp-tableCell {
+    vertical-align: top;
+
 }
 
 .fp-slidesContainer {
