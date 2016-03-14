@@ -1,0 +1,14 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -92,10 +92,9 @@
+                 
+                 <h1>Hey, I'm Martin!</h1>
+ 
+-                <img id="bildformat" src="img/Berwerbungsbild.jpg">
++                <img id="bildformat" allign="middle" src="img/Berwerbungsbild.jpg">
+                 <p class="blocksatz" id="schriftabstand">
+-                I want to join the intern band of 2016 at Spotify. A unique company deserves a unique application. Therefore, I created that special playlist to prove my passionate love for Spotify as a product and as a company. So enjoy the playlist and don't forget to subscribe!</p>
+-                <p>Martin</p>
++                I want to join the intern band of 2016 at Spotify. A unique company deserves a unique application. Therefore, I created that special kind of playlist to prove my passionate love for Spotify as a product and as a company. So enjoy the playlist and don't forget to subscribe!</p>
+ 
+            </div>
+              </div>
